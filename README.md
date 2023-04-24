@@ -50,7 +50,7 @@ Each function here references a JSON configuration file in some manner.
 | fn name     | fn args     | fn desc     | fn addr     |
 | ----------- | ----------- | ----------- | ----------- |
 | CONFIG_applyFromFile | UnknownType | Sets game settings based on<br>the data in Echo's `config.json` | 0x140179fe0 |
-| CONFIG_getValueIfPresentElseDefault | UnknownType, UnknownType, UnknownType,<br> UnknownType | Returns the value of a specified key<br>in the `config.json` file if present,<br>if not present returns a default value | 0x1405fe290 |
+| CONFIG_getValueIfPresentElseDefault | UnknownType, UnknownType, UnknownType,<br> UnknownType | Returns the value of a specified key<br>in the `config.json` file if present,<br>if not present returns a default value`(?)` | 0x1405fe290 |
 
 ### Sockets
 Each function here references a WebSocket connection.
