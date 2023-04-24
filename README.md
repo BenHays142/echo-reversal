@@ -8,10 +8,10 @@ The referenced file along with its sha256 checksum (shown above) can be found in
 
 ## Table of Contents
 - [Directory Structure](#directory-structure)
-- [Credits](/tree/master/AUTHORS)
-- [Notes](/tree/master/notes)
-- [Decompiled Functions](/tree/master/decomp)
-- [Echo VR Executable (links to file tree view)](/tree/master/exe)
+- [Credits](AUTHORS)
+- [Notes](notes)
+- [Decompiled Functions](decomp)
+- [Echo VR Executable (links to file tree view)](exe)
 
 ## Directory Structure
 ```
