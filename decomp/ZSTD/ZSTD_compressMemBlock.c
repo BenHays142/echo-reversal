@@ -1,4 +1,3 @@
-// function address: 0x14152a4c0
 undefined8 ZSTD_compressMemBlock(int64_t arg1, int64_t arg2, int64_t arg3, int64_t arg4)
 {
     int32_t iVar1;

@@ -1,4 +1,3 @@
-// function address: 0x1405fe290
 int64_t CONFIG_getValueIfPresentElseDefault(int64_t arg1, int64_t arg2, int64_t arg3, int64_t arg4)
 {
     uintmax_t uVar1;

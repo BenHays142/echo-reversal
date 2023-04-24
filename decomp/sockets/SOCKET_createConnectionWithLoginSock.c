@@ -1,4 +1,3 @@
-// function address: 0x140181860
 undefined8 SOCKET_createConnectionWithLoginSock(int64_t arg1)
 {
     undefined8 uVar1;

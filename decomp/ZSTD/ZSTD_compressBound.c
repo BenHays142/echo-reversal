@@ -1,4 +1,3 @@
-// function address: 0x14157a190
 int64_t ZSTD_compressBound(uintmax_t arg1)
 {
     if (arg1 < 0x40000) {

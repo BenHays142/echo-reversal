@@ -1,4 +1,3 @@
-// function address: 0x141582a80
 code * ZSTD_getErrStr(uintmax_t arg1)
 {
     int32_t iVar1;

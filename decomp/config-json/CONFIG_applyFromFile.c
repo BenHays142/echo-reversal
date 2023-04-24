@@ -1,4 +1,3 @@
-// function address: 0x140179fe0
 undefined8 CONFIG_applyFromFile(int64_t arg1)
 {
     undefined4 uVar1;

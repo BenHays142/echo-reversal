@@ -1,4 +1,3 @@
-// function address: 0x1401c4c20
 void SOCKET_doUnknownThingWithExistingConnection(int64_t arg1, int64_t arg2)
 {
     uint64_t *puVar1;

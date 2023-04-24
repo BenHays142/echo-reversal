@@ -1,4 +1,3 @@
-// function address: 0x1414ece30
 uint64_t entry0(void)
 {
     code *pcVar1;

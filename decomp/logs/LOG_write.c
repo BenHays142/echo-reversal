@@ -1,4 +1,3 @@
-// function address: 0x14151ddd0
 undefined4 LOG_write(uintmax_t arg1, uintmax_t arg2, char *arg3, int64_t arg4, int64_t arg_28h)
 {
     undefined4 uVar1;

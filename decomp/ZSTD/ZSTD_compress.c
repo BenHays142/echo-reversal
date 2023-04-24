@@ -1,4 +1,3 @@
-// function address: 0x14156c510
 void ZSTD_compress(int64_t arg1, int64_t arg2, int64_t arg3, int64_t arg4, int64_t arg_28h)
 {
     int64_t iVar1;
