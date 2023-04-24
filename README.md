@@ -7,7 +7,7 @@ This is a list of all the important information (mostly addresses) myself or oth
 The referenced file along with its sha256 checksum (shown above) can be found in the `./echo-files/` directory.
 
 ## Table of Contents
-- [Directory Structure](#reversal-directory-structure)
+- [Directory Structure](#directory-structure)
 - [Key](#key)
 - [Functions](#functions)
 - [ZSTD](#zstd)
