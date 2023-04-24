@@ -23,7 +23,7 @@ The referenced file along with its sha256 checksum (shown above) can be found in
 ├── README.md # you are here
 ├── decomp/
 │   ├── README.md
-│   ├── [...]/ # each function (below) has its own subdirectory in the decomp directory
+│   ├── [...]/ # each function section (below) has its own subdirectory in the decomp directory
 ├── echo-files/
 │   ├── echovr.exe
 │   └── echovr.exe.sha256 # sha256 checksum file for echovr.exe - see #about
