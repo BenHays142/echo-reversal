@@ -1,2 +1,2 @@
 https://api.readyatdawn.com
-https://api-%s.readyatdawn.com # what's %s??
+https://api-*.readyatdawn.com
