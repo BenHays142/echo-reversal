@@ -1,4 +1,6 @@
 # Echo VR Reversal Notes
+## Why??
+The initial goal is to recreate Echo VR's servers, similar to what [Project Earth for Minecraft Earth](https://github.com/Project-Earth-Team) achieved. A slightly longer term goal, for myself at least, is to remove all Oculus VR requirements from Echo so it's possible to play without an Oculus headset, and more importantly to me - so it'd be possible to play Echo on Linux platforms through [Valve Proton](https://github.com/ValveSoftware/Proton/).
 ## About
 This is a list of all the important information (mostly addresses) myself or others have found for the file `echovr.exe` with the following sha256 checksum:
 ```
