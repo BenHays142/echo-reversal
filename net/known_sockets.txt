@@ -1,0 +1,6 @@
+wss://login.readyatdawn.com/rad/rad15_live
+wss://config.readyatdawn.com/rad/rad15_live
+wss://transaction.readyatdawn.com/rad/rad15_live
+wss://matchmaker-ai.readyatdawn.com
+wss://matchmaker-social.readyatdawn.com
+wss://matchmaker-combat.readyatdawn.com

@@ -19,12 +19,17 @@ The referenced file along with its sha256 checksum (shown above) can be found in
 ## Directory Structure
 ```
 .
+├── AUTHORS
 ├── README.md # you are here
 ├── decomp/
-│   ├── ... # each function section (below) has its own subdirectory in the decomp directory
-└── echo-files/
-    ├── echovr.exe
-    └── echovr.exe.sha256 # checksum file for echovr.exe
+│   ├── README.md
+│   ├── [...]/ # each function (below) has its own subdirectory in the decomp directory
+├── echo-files/
+│   ├── echovr.exe
+│   └── echovr.exe.sha256 # sha256 checksum file for echovr.exe - see #about
+└── net/
+    ├── known_http_apis.txt
+    └── known_sockets.txt
 ```
 
 ## Key
