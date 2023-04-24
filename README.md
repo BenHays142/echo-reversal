@@ -42,8 +42,8 @@ Each function here utilizes Facebook's [ZSTD](https://github.com/facebook/zstd) 
 | ZSTD_compress | UnknownType, UnknownType, UnknownType,<br>UnknownType, UnknownType | Compresses a buffer | 0x14156c510 |
 | ZSTD_compressMemBlock | UnknownType, UnknownType, UnknownType,<br>UnknownType | Compresses a block of memory | 0x14152a4c0 |
 | ZSTD_getErrStr | int | Converts a ZSTD error opcode<br>into a human-readable string | 0x141582a80 |
-| ZSTD_compressBound | UnknownType | `(!)` | 0x14157a190 |
-| ZSTD_validate | UnknownType | `(!)` | 0x141582aa0 |
+| ZSTD_compressBound | int | Takes the size of the uncompressed data as input and returns the maximum size of the compressed data that may result from compressing that data | 0x14157a190 |
+| ZSTD_validate | UnknownType | Determines if certain bits of ZSTD-related data are valid | 0x141582aa0 |
 
 ### Config.json
 Each function here references a JSON configuration file in some manner.
