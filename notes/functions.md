@@ -31,7 +31,7 @@ Each function here references the `config.json` game configuration file.
 Each function here references a WebSocket connection.
 | fn name     | fn args     | fn desc     | fn addr     | eg call     |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| SOCKET_createConnectionWithLoginSock | UnknownType | Creates a new connection with the `wss://login.readyatdawn.com/rad/rad15_live` websocket | 0x140181860 | 0x140157f5c |
+| SOCKET_createConnectionWithLoginSock | UnknownType | Creates a new connection with the `wss://login.readyatdawn.com/rad/rad15_live` websocket`(?)` | 0x140181860 | 0x140157f5c |
 | SOCKET_doUnknownThingWithExistingConnection | UnknownType, UnknownType | `(!)` | 0x1401c4c20 | 0x1401ac86d |
 
 ## Logs
