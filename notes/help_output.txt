@@ -1,0 +1,230 @@
+[mm-dd-yyyy] [hh:mm:ss] Command Help: 
+
+[mm-dd-yyyy] [hh:mm:ss]      * -help: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Displays cmd line help information.
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -crash: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Force .exe to crash
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -crashdeferred: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Force .exe to crash, but defer it later to the first update loop
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -level: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -level_name
+[mm-dd-yyyy] [hh:mm:ss]          Load a level to run
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -startlevel: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -level_name
+[mm-dd-yyyy] [hh:mm:ss]          Load a level to run
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -checkpoint: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -checkpoint_name
+[mm-dd-yyyy] [hh:mm:ss]          Active checkpoint to load into
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -startcheckpoint: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -checkpoint_name
+[mm-dd-yyyy] [hh:mm:ss]          Active checkpoint to load into
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -startmissioneditorcheckpoint: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Use checkpoint selected in Mission Script Editor
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -nolevelloads: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Prohibit level loads
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -noaudio: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Disable audio
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -speakersetup: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -speaker_setup
+[mm-dd-yyyy] [hh:mm:ss]          Speaker setup (stereo/5point1)
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -panningrule: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -panning_rule
+[mm-dd-yyyy] [hh:mm:ss]          Panning rule (speakers/headphones)
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -defaultports: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Turns off dynamic ports for Wwise
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -dataroot: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -data_root
+[mm-dd-yyyy] [hh:mm:ss]          Set an alternative to data dir root (defaults to the project dir)
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -datadir: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -data_dir
+[mm-dd-yyyy] [hh:mm:ss]          Set an alternative to _data to load data from
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -nosymbollookup: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Do not use symbol lookup
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -package: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -package_name
+[mm-dd-yyyy] [hh:mm:ss]          Package name to use for resource loading
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -reportcrashes: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Report crashes
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -legacyvis: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Use the legacy (precomputed) visibility system
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -capturevideo: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Enable video capture, must also use -capture360
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -captureaudio: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Enable audio capture
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -fullscreen: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Starts the game in fullscreen mode
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -display: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Specifies the index of the display used for fullscreen mode
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -adapter: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Specifies the index of the GPU to use
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -fullscreen_res: takes 2 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Sets the target fullscreen resolution
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -language: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Command to switch the start language
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -headless: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Run the game with no graphics
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -fixedtimestep: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Tells the game to run at a fixed time step
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -syncinterval: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Specifies the VSYNC interval to use
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -nomsaa: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Disable MSAA
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -vrscale: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -vr_scale
+[mm-dd-yyyy] [hh:mm:ss]          Scale VR resolution to improve performance
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -smoothrotation: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Enable smooth rotation
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -smoothroll: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Enable smooth roll
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -teststart: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Start game then stop to test for memleaks
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -msaa: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss] Possible params: 
+[mm-dd-yyyy] [hh:mm:ss]        *  -msaa_mode
+[mm-dd-yyyy] [hh:mm:ss]          The MSAA mode to use
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -usetouch: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Use touch controls for the game
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -mp: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Boot into multiplayer
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -logpath: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Path for the log file to go to
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -uniquelogdir: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Write all log files to a unique directory
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -usercfgpath: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Path where the local config is located
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -usevrsize: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Size the window to VR native resolution
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -capture: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Run the game in a mode designed for recording with a capture device
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -capturevp2: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Run the game in recording mode, using a second viewport.
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -dumpstats: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Dump perfstats after 60 sec and exit for automated perf collection
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -defaultsettings: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Force the game to auto-pick graphics settings
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -lobbyid: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          ID of lobby to join on start
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -lobbyteam: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Team to join on start
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -moderator: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Join the logged in user's lobby group as a moderator
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -moderateuser: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Join the given user's lobby as a moderator
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -moderategroup: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Join the given lobby group as a moderator
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -displayname: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set the logged in user's display name (if allowed)
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -micprovider: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set the desired mic provider (OVR, RAD, DMO)
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -port: takes between 1 and 2 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          First port to try binding to (dedicated server only)
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -mpappid: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Override multiplayer app id
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -spectatorstream: takes between 0 and 1 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Stream spectator mode matches
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -numtaskthreads: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Change the number of task threads that startup
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -httpport: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Port for HTTP listener to use
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -noovr: takes 0 arguments.
+[mm-dd-yyyy] [hh:mm:ss]          Disable OVR platform features
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -region: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Which region to use when searching for a server
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -gametype: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Game type to create / find / join on start
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -publisherlock: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set the publisher lock
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -confighost: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set the config host endpoint
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -loginhost: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set the login host endpoint
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -radserverdbhost: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set the sdb host endpoint
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -servermanagerhost: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set the sdb host endpoint
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -servercountry: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set server country
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -serverlocation: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set server location
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -serverplugin: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set server plugin
+[mm-dd-yyyy] [hh:mm:ss] 
+[mm-dd-yyyy] [hh:mm:ss]      * -serverregion: takes 1 argument.
+[mm-dd-yyyy] [hh:mm:ss]          Set server region
