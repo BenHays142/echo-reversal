@@ -45,7 +45,7 @@ Each function here handles event logging.
 None of the functions below fit in a category above.
 | fn name     | fn args     | fn desc     | fn addr     | eg call     |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| entry0 | | This is the entry function, akin to `int main()` | 0x1414ece30 | N/A |
+| entry0 | | This is the entry function, akin to `int main()` | 0x1414ece30 | |
 | MISC_strContainsSubstr | char*, char*, UnknownType, UnknownType | Determines if a str contains a substr | 0x1400dd4c0 | 0x1400e0f0b |
 | MISC_indexOfSubstrInStr | char*, char*, UnknownType | Returns the index of a substr in a str | 0x1400dda40 | 0x1400dd567 |
 | MISC_removeSubstrFromStr | char*, char*, UnknownType | Removes a substr from a str | 0x1400de050 | 0x1400db6ac |
