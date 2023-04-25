@@ -8,4 +8,4 @@ Due to the presence of references to these files in Echo VR's readable strings:
 - `d:\projects\rad\dev\src\engine\libs\os\czstdcompression.cpp`
 - `d:\projects\rad\dev\src\engine\libs\os\czlibcompression.cpp`
 
-Echo VR's networking APIs likely utilize a combination of the [LZ4](https://github.com/lz4/lz4), [ZSTD](https://github.com/facebook/zstd), and [ZLIB](https://github.com/madler/zlib) compression.
+Echo VR's networking APIs likely utilize a combination of the [LZ4](https://github.com/lz4/lz4), [ZSTD](https://github.com/facebook/zstd), and [ZLIB](https://github.com/madler/zlib) compression algorithms.
