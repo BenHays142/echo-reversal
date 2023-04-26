@@ -4,4 +4,5 @@ This directory holds the actual notes from reversing Echo VR, such as variable a
 ## TOC
 - [Functions](/notes/functions.md)
 - [Strings](/notes/strings.md)
-- [Network APIs](/notes/net)
+- [Cutter Data Files](/notes/data/)
+- [Network APIs](/notes/net/)
