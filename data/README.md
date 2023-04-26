@@ -4,7 +4,7 @@ This directory contains a pre-annotated `rzdb` file so you don't need to manuall
 ## Fixing the RZDB file
 There are some hardcoded paths that you need to change before attempting to import the RZDB file in Cutter. Because this will only work on a Linux system, you can use the below line to automatically fix the paths without opening up an editor (make sure to replace the variable with the actual file path!). Also, this automatically extracts the `*.tar.gz` file.
 ```
-export echovr_exe_path="/full/path/to/echovr.exe"; [ -f "./echovr.exe.rzdb" ] || { echo "The echovr.exe.rzdb file must be in the current directory for this to work."; return } && { tar -xf echovr.exe.rzdb.tar.gz; rm echovr.exe.rzdb.tar.gz; sed -i "s,/home/some_user,$HOME,g; s,$HOME/echovr.exe,${echovr_exe_path},g; s,$HOME/echovr.exe.rzdb,$(pwd)/echovr.exe.rzdb,g" ./echovr.exe.rzdb }
+export echovr_exe_path="/full/path/to/echovr.exe"; [ -f "./echovr.exe.rzdb.tar.gz" ] || { echo "The echovr.exe.rzdb.tar.gz file must be in the current directory for this to work."; return } && { tar -xf echovr.exe.rzdb.tar.gz; rm echovr.exe.rzdb.tar.gz; sed -i "s,/home/some_user,$HOME,g; s,$HOME/echovr.exe,${echovr_exe_path},g; s,$HOME/echovr.exe.rzdb,$(pwd)/echovr.exe.rzdb,g" ./echovr.exe.rzdb }
 ```
 Note that this will set the current directory as the path for the project file which means you *cannot move it*, as we're changing the previous values to point here instead, but they're still harcoded. The same goes for the Echo VR executable file (it shouldn't be moved).
 
